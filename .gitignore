@@ -4,18 +4,19 @@ venv/
 .env/
 
 # Data Files
-finalData/
+data/
 rawData/*.csv
 *.csv
+
 
 # Saved Models and Notebooks
 *.ipynb
 *.pkl
-recommender_Model/similarity_matrices.pkl
+models/similarity_matrices.pkl
 
 # But keep those in recommender_Model
-!recommender_Model/final_df.pkl
-!recommender_Model/tfidf_matrices.pkl
+!models/final_df.pkl
+!models/tfidf_matrices.pkl
 
 # Python cache and logs
 __pycache__/

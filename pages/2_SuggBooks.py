@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 
 # Load model/data
-with open('recommender_Model/final_df.pkl', 'rb') as f:
+with open('models/final_df.pkl', 'rb') as f:
     final_df = pickle.load(f)
 
 # Page UI
@@ -53,7 +53,7 @@ with col1:
         # Unique key based on bookId for each button
         if st.button("Open Description", key=f"desc_left_{row['bookId']}"):
             st.session_state['selected_book_id'] = row['bookId']
-            st.switch_page("pages/DetBooks.py")
+            st.switch_page("pages/3_BookDet.py")
         st.divider()
 
 # Display books in second column

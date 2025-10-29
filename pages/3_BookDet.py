@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 
 # Load the data
-with open('recommender_Model/final_df.pkl', 'rb') as f:
+with open('models/final_df.pkl', 'rb') as f:
     final_df = pickle.load(f)
 
 st.title("Book Details")

@@ -5,12 +5,8 @@ import pickle
 import os
 
 # Load objects from disk (at the start of your script)
-with open('recommender_Model/final_df.pkl', 'rb') as f:
+with open('models/final_df.pkl', 'rb') as f:
     final_df = pickle.load(f)
-with open('recommender_Model/tfidf_matrices.pkl', 'rb') as f:
-    tfidf_matrices = pickle.load(f)
-with open('recommender_Model/similarity_matrices.pkl', 'rb') as f:
-    similarity_matrices = pickle.load(f)
 
 
 def clean_genre_list(genres):

@@ -1,9 +1,9 @@
 import streamlit as st
 import pickle
 
-with open('recommender_Model/final_df.pkl', 'rb') as f:
+with open('models/final_df.pkl', 'rb') as f:
     final_df = pickle.load(f)
-with open('recommender_Model/similarity_matrices.pkl', 'rb') as f:
+with open('models/similarity_matrices.pkl', 'rb') as f:
     similarity_matrices = pickle.load(f)
 
 selected_book_id = st.session_state.get("selected_book_id")
