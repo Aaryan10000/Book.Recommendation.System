@@ -10,6 +10,7 @@ This project applies **Natural Language Processing (NLP)** and **Machine Learnin
 - [Overview](#-overview)
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
+- [Application Pages](#-application-pages)
 - [Project Structure](#-project-structure)
 - [Setup Instructions](#-setup-instructions)
 - [Running the Application](#-running-the-application)
@@ -55,6 +56,44 @@ The system is implemented with a **Streamlit web interface** that allows users t
 | **Dataset**       | Custom dataset (Books_10000.csv)                            |
 | **Visualization** | Streamlit components                                        |
 | **Model Files**   | `.pkl` files (TF-IDF, similarity matrices, final dataframe) |
+
+---
+
+## 🧩 Application Pages
+
+### 🏠 1. Home Page
+
+Displays the project introduction, purpose, and navigation to other pages.
+
+![Landing Page](assets/0_LandingPage.png)
+
+---
+
+### ​🔖 2. Genre Page
+
+Shows the top 50 most famous genres in the data used for suggestions.
+
+![Genre Page](assets/1_GenrePage.png)
+
+---
+
+### 📜 3. Book Suggestions
+
+Provides 10 random book suggestions according to the genre you choose.
+
+![Suggestions Page](assets/2_SuggBooks.png)
+
+### 📔 4. Book Details
+
+Displays the book details of the book you choose from the suggestions along with button to get more suggestions from the selected book.
+
+![Book Details Page](assets/3_BookDet.png)
+
+### 📚 5. Recommendations Page
+
+Show 6 similar recommended books from the book you initially choose from your favourite genre.
+
+![Recommendations Page](assets/4_Recommendations.png)
 
 ---
 
