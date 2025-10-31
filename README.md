@@ -98,7 +98,7 @@ Show 6 similar recommended books from the book you initially choose from your fa
 ---
 
 ## 📁 Project Structure
-
+```
 .
 ├── .gitignore
 ├── .streamlit/config.toml # Streamlit app configuration
@@ -114,7 +114,7 @@ Show 6 similar recommended books from the book you initially choose from your fa
 │ ├── final_df.pkl # Processed book dataset
 │ └── tfidf_matrices.pkl # TF-IDF vector data
 └── requirements.txt # Dependencies
-
+```
 ---
 
 ## ⚙️ Setup Instructions
